@@ -1,6 +1,6 @@
 document.getElementById('add-task-btn').addEventListener('click', function() {
     const taskInput = document.getElementById('new-task');
-    const task = taskInput.ariaValueMax.trim();
+    const task = taskInput.value.trim();
 
     if (task) {
         addTask(task);
