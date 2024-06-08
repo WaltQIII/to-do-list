@@ -9,7 +9,7 @@ document.getElementById('add-task-btn').addEventListener('click', function() {
 });
 
 function addTask(task) {
-    const taskList = document.getElementById('taskList');
+    const taskList = document.getElementById('task-list');
     const listItem = document.createElement('li');
 
     listItem.textContent = task;
